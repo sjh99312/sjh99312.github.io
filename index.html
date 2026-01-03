@@ -27,6 +27,72 @@
     ul {
       padding-left: 20px;
     }
+    <style>
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+    line-height: 1.7;
+    color: #222;
+  }
+  h1, h2 {
+    margin-top: 2.5rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  ul {
+    padding-left: 20px;
+  }
+
+  .publication {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 18px 0 28px;
+  }
+
+  .publication img {
+    width: 170px;         
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    object-fit: cover;
+    flex-shrink: 0;       
+  }
+
+  .pub-title {
+    color: #b91c1c;       
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+  }
+
+  .pub-authors {
+    margin-bottom: 6px;
+  }
+
+  .pub-venue {
+    font-style: italic;
+    color: #374151;
+  }
+
+  @media (max-width: 640px) {
+    .publication {
+      flex-direction: column;
+    }
+    .publication img {
+      width: 100%;
+      max-width: 360px;
+    }
+  }
+</style>
+
   </style>
 </head>
 
